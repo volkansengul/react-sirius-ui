@@ -1,5 +1,5 @@
 {
-  "name": "@volkansengul/sirius-ui",
+  "name": "@volkansengul/react-sirius-ui",
   "version": "0.9.16",
   "description": "Design system & UI library for React",
   "main": "commonjs/index.js",
@@ -8,7 +8,7 @@
     "commonjs",
     "esm"
   ],
-  "author": "Emre Kılınç <emre@muhsis.com>",
+  "author": "Volkan Şengül <iletisim@volkansengul.com>",
   "license": "MIT",
   "scripts": {
     "build-commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir commonjs --ignore __tests__/,docs/ --source-maps inline",
