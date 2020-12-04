@@ -22,12 +22,6 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "lint-staged": {
     "*.{js,css}": [
       "eslint",
