@@ -1,0 +1,35 @@
+<Box>
+  <Box mb={2}>
+    <Avatar
+      size="xs"
+      mr={1}
+      src="https://randomuser.me/api/portraits/women/93.jpg"
+    />
+    <Avatar
+      size="sm"
+      mr={1}
+      src="https://randomuser.me/api/portraits/women/94.jpg"
+    />
+    <Avatar
+      mr={1}
+      src="https://randomuser.me/api/portraits/women/95.jpg"
+    />
+    <Avatar
+      size="lg"
+      mr={1}
+      src="https://randomuser.me/api/portraits/women/96.jpg"
+    />
+    <Avatar
+      size="xl"
+      src="https://randomuser.me/api/portraits/women/97.jpg"
+    />
+  </Box>
+
+  <Box>
+    <AvatarInitials size="xs" initials="EZ" mr={1} />
+    <AvatarInitials size="sm" initials="ÖB" mr={1} />
+    <AvatarInitials mr={1} />
+    <AvatarInitials size="lg" mr={1} />
+    <AvatarInitials size="xl" />
+  </Box>
+</Box>

@@ -1,0 +1,52 @@
+<>
+  <Box>
+    <ButtonLink mr={1}><IconEdit mr={1} /> Link Button</ButtonLink>
+    <ButtonLink mr={1} variant="secondary">
+      Link Button
+    </ButtonLink>
+    <ButtonLink mr={1} variant="success">
+      Link Button
+    </ButtonLink>
+    <ButtonLink mr={1} variant="info">
+      Link Button
+    </ButtonLink>
+    <ButtonLink mr={1} variant="warning">
+      <IconSquaredCross mr={1} />
+      Link Button
+    </ButtonLink>
+    <ButtonLink mr={1} variant="danger">
+      <IconTrash mr={1} />
+      Link Button
+    </ButtonLink>
+    <ButtonLink mr={1} variant="light">
+      Link Button
+    </ButtonLink>
+    <ButtonLink variant="dark">
+      Link Button
+    </ButtonLink>
+  </Box>
+
+  <Box mt={3}>
+    <ButtonLink size="lg" mr={1}><IconEdit mr={1} /> Large Link Button</ButtonLink>
+    <ButtonLink size="lg" mr={1} variant="success">
+      <IconSquaredPlus mr={1} />
+      Large Link Button
+    </ButtonLink>
+  </Box>
+
+  <Box mt={3}>
+    <ButtonLink size="sm" mr={1}><IconEdit mr={1} /> Link Button</ButtonLink>
+    <ButtonLink size="sm" mr={1} variant="success">
+      <IconSquaredPlus mr={1} />
+      Link Button
+    </ButtonLink>
+  </Box>
+
+  <Box mt={3}>
+    <ButtonLink size="sm" mr={1} loading><IconEdit mr={1} /> Link Button</ButtonLink>
+    <ButtonLink size="sm" mr={1} variant="success" disabled>
+      <IconSquaredPlus mr={1} />
+      Link Button
+    </ButtonLink>
+  </Box>
+</>

@@ -1,0 +1,24 @@
+<>
+  <Tag mr={1}>
+    Default
+  </Tag>
+  <Tag mr={1} variant="primary">Primary</Tag>
+  <Tag mr={1} variant="secondary">
+    Secondary
+  </Tag>
+  <Tag mr={1} variant="success">
+    Success
+  </Tag>
+  <Tag mr={1} variant="info">
+    Info
+  </Tag>
+  <Tag mr={1} variant="warning">
+    Warning
+  </Tag>
+  <Tag mr={1} variant="danger">
+    Danger
+  </Tag>
+  <Tag mr={1} variant="dark">
+    Dark
+  </Tag>
+</>

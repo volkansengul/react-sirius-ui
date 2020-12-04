@@ -1,0 +1,6 @@
+<>
+  <Alert mb={2} title="Whenever you need to, be sure to use margin utilities to keep things nice and tidy." />
+  <Alert mb={2} variant="success" title="Whenever you need to, be sure to use margin utilities to keep things nice and tidy." />
+  <Alert mb={2} variant="warning" text="Whenever you need to, be sure to use margin utilities to keep things nice and tidy." />
+  <Alert mb={2} variant="danger" text="Whenever you need to, be sure to use margin utilities to keep things nice and tidy." />
+</>

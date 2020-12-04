@@ -1,0 +1,5 @@
+<form>
+  <TextInput type="text" name="myInput" placeholder="Placeholder text" inline mr={2} />
+  <TextInput type="text" name="myInput2" placeholder="Placeholder text" inline mr={2} />
+  <TextInput type="text" name="myInput3" placeholder="Placeholder text" inline mr={2} />
+</form>

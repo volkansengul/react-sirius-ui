@@ -1,0 +1,18 @@
+<Component
+  initialState={{
+    options: [
+      { label: 'Read-only', value: 'read-only' },
+      { label: 'Write', value: 'write' },
+      { label: 'Restricted', value: 'restricted' }
+    ],
+    value: 'restricted'
+  }}
+>
+  {({ state, setState }) => (
+    <RadioGroup
+      value={state.value}
+      options={state.options}
+      onChange={value => setState({ value })}
+    />
+  )}
+</Component>

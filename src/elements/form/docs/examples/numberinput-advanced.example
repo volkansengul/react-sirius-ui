@@ -1,0 +1,15 @@
+<>
+  <form>
+    <NumberInput value={2456981} thousandSeparator={true} prefix={'$'} inline name="myNrInput3" />
+  </form>
+
+  <Paragraph mt={4}>Format with pattern : Format credit card as text.</Paragraph>
+  <form>
+    <NumberInput format="#### #### #### ####" placeholder="#### #### #### ####" inline name="myNrInput4" />
+  </form>
+
+  <Paragraph mt={4}>Mask can also be a array of string. Each item corresponds to the same index #.</Paragraph>
+  <form>
+    <NumberInput format="##/##" placeholder="MM/YY" mask={['M', 'M', 'Y', 'Y']} inline name="myNrInput5" width={70} />
+  </form>
+</>

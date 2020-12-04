@@ -1,0 +1,3 @@
+<Box height={600} position="relative">
+  <BlankSlate title="Potansiyel müşterilerinizi yönetin." text="Bir çok kanaldan veri girişi sağlayarak, potansiyel müşterilerinizin burada oluşmasını sağlayabilirsiniz." image="https://cdn.shopify.com/s/files/1/0757/9955/files/empty-state.svg" actions={(<><Button variant="success" mr={2}>Yeni Ekle</Button><Button variant="light">Entegrasyon Ayarları</Button></>)} />
+</Box>

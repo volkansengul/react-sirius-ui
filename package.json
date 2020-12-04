@@ -1,0 +1,85 @@
+{
+  "name": "@volkansengul/sirius-ui",
+  "version": "0.9.16",
+  "description": "Design system & UI library for React",
+  "main": "commonjs/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "commonjs",
+    "esm"
+  ],
+  "author": "Emre Kılınç <emre@muhsis.com>",
+  "license": "MIT",
+  "scripts": {
+    "build-commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir commonjs --ignore __tests__/,docs/ --source-maps inline",
+    "build-esm": "cross-env BABEL_ENV=esm babel src --out-dir esm --ignore __tests__/,docs/ --source-maps inline",
+    "build": "yarn run build-commonjs && yarn run build-esm",
+    "lint": "eslint .",
+    "lint:watch": "esw . -w",
+    "test": "jest --watch --coverage",
+    "prepare": "npm run build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css}": [
+      "eslint",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "@svgr/cli": "^4.1.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-annotate-pure-calls": "^0.4.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-watch": "^4.0.2",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "babel-jest": "^24.1.0",
+    "dom-helpers": "^3.4.0",
+    "jest": "^24.1.0",
+    "jest-styled-components": "^6.3.1",
+    "moment": "^2.24.0",
+    "polished": "^3.6.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-datetime": "^2.16.3",
+    "react-dom": "^16.13.1",
+    "react-number-format": "^4.3.0",
+    "react-select": "^2.4.2",
+    "react-transition-group": "^4.3.0",
+    "styled-components": "^5.1.1",
+    "styled-system": "^5.1.5"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}

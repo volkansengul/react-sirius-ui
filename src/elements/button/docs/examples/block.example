@@ -1,0 +1,4 @@
+<Box width={300} mx="auto">
+  <Button block mb={2}>Block Button</Button>
+  <Button block variant="success">Block Button</Button>
+</Box>

@@ -1,0 +1,15 @@
+<>
+  <form>
+    <TextArea name="myTextArea" id="myTextArea" rows={4} placeholder="Textarea placeholder value"></TextArea>
+  </form>
+
+  <form>
+    <p>You can also use TextArea component with autoResize option too.</p>
+    <TextArea name="myTextArea2" id="myTextArea2" rows={4} autoResize placeholder="I'm an auto-resizing textarea."></TextArea>
+  </form>
+
+  <form>
+    <p>You can also use TextArea with transparent option. (For invoices and stuff.)</p>
+    <TextArea name="myTextArea2" id="myTextArea2" rows={4} autoResize transparent placeholder="I'm an auto-resizing textarea."></TextArea>
+  </form>
+</>

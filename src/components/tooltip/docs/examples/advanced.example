@@ -1,0 +1,19 @@
+<>
+  <Box p="5rem" textAlign="center">
+    <Tooltip direction="top" content="Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam quis risus eget urna mollis ornare vel eu leo.">
+      <Button>Long Content</Button>
+    </Tooltip>
+  </Box>
+
+  <Box p="5rem" textAlign="center">
+    <Tooltip direction="bottom" content={(<><IconAircraft mr={2} /><Text>Rich <Strong>HTML</Strong> content!</Text></>)}>
+      <Button>HTML Tooltip</Button>
+    </Tooltip>
+  </Box>
+
+  <Box py="5rem" px={3} textAlign="right">
+    <Tooltip direction="left" content="Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam quis risus eget urna mollis ornare vel eu leo.">
+      <Button>Long Content (left)</Button>
+    </Tooltip>
+  </Box>
+</>

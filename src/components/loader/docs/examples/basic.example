@@ -1,0 +1,5 @@
+<Box>
+  <Loader my={5} />
+  <Divider />
+  <Loader my={5} title="Custom Title" text="Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo." />
+</Box>

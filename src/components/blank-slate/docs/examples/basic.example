@@ -1,0 +1,3 @@
+<Box height={600} position="relative">
+  <BlankSlate image="https://cdn.shopify.com/s/files/1/0757/9955/files/empty-state.svg" actions={(<><Button mr={2}>Action</Button><Button variant="light">Secondary Action</Button></>)} />
+</Box>

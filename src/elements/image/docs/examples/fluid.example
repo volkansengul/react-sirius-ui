@@ -1,0 +1,13 @@
+<>
+  <Box width={300} mx="auto" mb={5}>
+    <ImageFluid src="https://picsum.photos/640/480" alt="Alt Text" />
+  </Box>
+
+  <Box width={600} mx="auto" my={5}>
+    <ImageFluid src="https://picsum.photos/800/600" alt="Alt Text" />
+  </Box>
+
+  <Box mt={5}>
+    <ImageFluid src="https://picsum.photos/1024/768" alt="Alt Text" />
+  </Box>
+</>

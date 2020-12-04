@@ -1,0 +1,9 @@
+<Box>
+  <AvatarInitials size="sm" mr={1} variant="primary" />
+  <AvatarInitials size="sm" mr={1} variant="secondary" />
+  <AvatarInitials size="sm" mr={1} variant="success" />
+  <AvatarInitials size="sm" mr={1} variant="info" />
+  <AvatarInitials size="sm" mr={1} variant="warning" />
+  <AvatarInitials size="sm" mr={1} variant="danger" />
+  <AvatarInitials size="sm" variant="dark" />
+</Box>

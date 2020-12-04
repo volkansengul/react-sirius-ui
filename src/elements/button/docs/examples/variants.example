@@ -1,0 +1,51 @@
+<>
+  <Box>
+    <Button type="button" mr={1}>Primary</Button>
+    <Button type="button" mr={1} variant="secondary">
+      Secondary
+    </Button>
+    <Button type="button" mr={1} variant="success">
+      Success
+    </Button>
+    <Button type="button" mr={1} variant="info">
+      Info
+    </Button>
+    <Button type="button" mr={1} variant="warning">
+      Warning
+    </Button>
+    <Button type="button" mr={1} variant="danger">
+      Danger
+    </Button>
+    <Button type="button" mr={1} variant="light">
+      Light
+    </Button>
+    <Button type="button" variant="dark">
+      Dark
+    </Button>
+  </Box>
+
+  <Box mt={4}>
+    <Button type="button" outline mr={1}>Primary</Button>
+    <Button type="button" outline mr={1} variant="secondary">
+      Secondary
+    </Button>
+    <Button type="button" outline mr={1} variant="success">
+      Success
+    </Button>
+    <Button type="button" outline mr={1} variant="info">
+      Info
+    </Button>
+    <Button type="button" outline mr={1} variant="warning">
+      Warning
+    </Button>
+    <Button type="button" outline mr={1} variant="danger">
+      Danger
+    </Button>
+    <Button type="button" outline mr={1} variant="light">
+      Light
+    </Button>
+    <Button type="button" outline variant="dark">
+      Dark
+    </Button>
+  </Box>
+</>

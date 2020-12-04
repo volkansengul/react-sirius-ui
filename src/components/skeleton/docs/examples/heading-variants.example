@@ -1,0 +1,8 @@
+<Box>
+  <SkeletonHeading />
+  <SkeletonHeading variant="h2" />
+  <SkeletonHeading variant="h3" />
+  <SkeletonHeading variant="h4" />
+  <SkeletonHeading variant="h5" />
+  <SkeletonHeading variant="h6" />
+</Box>

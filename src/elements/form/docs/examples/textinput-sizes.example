@@ -1,0 +1,14 @@
+<>
+  <form>
+    <TextInput type="text" name="myInput" placeholder="Small (sm) input" mb={2} size="sm" />
+    <TextInput type="text" name="myInput2" placeholder="Regular (md) input" mb={2} />
+    <TextInput type="text" name="myInput3" placeholder="Large (lg) input" size="lg" />
+  </form>
+
+  <form>
+    <p>You can also use this component with transparent option.</p>
+    <TextInput type="text" name="myInput4" transparent placeholder="Small Tranparent (sm) input" mb={2} size="sm" value="Small Tranparent (sm) input" />
+    <TextInput type="text" name="myInput5" transparent placeholder="Regular (md) input" value="Regular (md) input" mb={2} />
+    <TextInput type="text" name="myInput6" transparent placeholder="Large (lg) input" value="Large (lg) input" size="lg" />
+  </form>
+</>

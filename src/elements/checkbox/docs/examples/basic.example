@@ -1,0 +1,6 @@
+<Box>
+  <Checkbox label="Checkbox default" />
+  <Checkbox checked label="Checkbox checked" />
+  <Checkbox disabled label="Checkbox disabled" />
+  <Checkbox disabled checked label="Checkbox checked disabled" />
+</Box>

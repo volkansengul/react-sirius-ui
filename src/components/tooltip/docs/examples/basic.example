@@ -1,0 +1,14 @@
+<Box p={5} textAlign="center">
+  <Tooltip content="Tooltip" mr={3}>
+    <Button>Tooltip</Button>
+  </Tooltip>
+  <Tooltip content="Tooltip" direction="left" mr={3}>
+    <Button>Tooltip (left)</Button>
+  </Tooltip>
+  <Tooltip content="Tooltip" direction="bottom" mr={3}>
+    <Button>Tooltip (bottom)</Button>
+  </Tooltip>
+  <Tooltip content="Tooltip" direction="right">
+    <Button>Tooltip (right)</Button>
+  </Tooltip>
+</Box>

@@ -1,0 +1,7 @@
+<Box>
+  <Text>Text</Text>
+  <Divider direction="vertical" />
+  <Text>Text Again</Text>
+  <Divider direction="vertical" />
+  <Link href="#">Link Now</Link>
+</Box>

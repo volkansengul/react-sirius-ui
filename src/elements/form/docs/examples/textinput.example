@@ -1,0 +1,3 @@
+<form>
+  <TextInput type="text" name="myInput" placeholder="Placeholder text" />
+</form>

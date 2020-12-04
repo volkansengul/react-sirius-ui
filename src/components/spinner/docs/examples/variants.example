@@ -1,0 +1,10 @@
+<Box>
+  <Spinner size={30} color="primary" mr={2} />
+  <Spinner size={30} color="secondary" mr={2} />
+  <Spinner size={30} color="success" mr={2} />
+  <Spinner size={30} color="warning" mr={2} />
+  <Spinner size={30} color="danger" mr={2} />
+  <Spinner size={30} color="info" mr={2} />
+  <Spinner size={30} color="light" mr={2} />
+  <Spinner size={30} color="dark" mr={2} />
+</Box>

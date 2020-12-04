@@ -1,0 +1,6 @@
+<>
+  <Box bg="primary" color="snow" p={3} mr={1} display="inline-block" textAlign="center">Primary</Box>
+  <Box bg="secondary" color="snow" p={3} mr={1} display="inline-block" textAlign="center">Secondary</Box>
+  <Box bg="success" color="snow" p={3} mr={1} display="inline-block" textAlign="center">Success</Box>
+  <Box bg="danger" color="snow" p={3} mr={1} display="inline-block" textAlign="center">Danger</Box>
+</>

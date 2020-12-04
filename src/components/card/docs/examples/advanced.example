@@ -1,0 +1,14 @@
+<Box width={300} mx="auto" mb={3}>
+  <Box mb={3}>
+    <Card py={4} textAlign="center" elevation={0}>Elevation 0</Card>
+  </Box>
+  <Box mb={3}>
+    <Card py={4} textAlign="center" elevation={1}>Elevation 1</Card>
+  </Box>
+  <Box mb={3}>
+    <Card py={4} textAlign="center" elevation={2}>Elevation 2</Card>
+  </Box>
+  <Box>
+    <Card py={4} textAlign="center" elevation={3}>Elevation 3</Card>
+  </Box>
+</Box>

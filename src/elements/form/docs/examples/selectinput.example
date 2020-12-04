@@ -1,0 +1,9 @@
+<form>
+  <SelectInput>
+    <option>Option Nr. 1</option>
+    <option>Option Nr. 2</option>
+    <option>Option Nr. 3</option>
+    <option>Option Nr. 4</option>
+    <option>Option Nr. 5</option>
+  </SelectInput>
+</form>

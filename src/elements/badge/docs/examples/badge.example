@@ -1,0 +1,55 @@
+<>
+  <Box mb={3}>
+    <Badge mr={3} count={8}>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+    <Badge mr={3} variant="primary" count={1}>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+    <Badge mr={3} variant="secondary" count={120}>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+    <Badge mr={3} variant="success" count={20}>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+    <Badge mr={3} variant="warning" count={5}>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+    <Badge mr={3} variant="info">
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+    <Badge mr={3} variant="light" count={2}>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+    <Badge mr={3} variant="dark" count={3}>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+  </Box>
+
+  <Box>
+    <Badge mr={3} isDot>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+    <Badge mr={3} variant="primary" isDot>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+    <Badge mr={3} variant="secondary" isDot>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+    <Badge mr={3} variant="success" isDot>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+    <Badge mr={3} variant="warning" isDot>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+    <Badge mr={3} variant="info" isDot>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+    <Badge mr={3} variant="light" isDot>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+    <Badge mr={3} variant="dark" isDot>
+      <Box width={40} height={40} bg="smoke"></Box>
+    </Badge>
+  </Box>
+</>

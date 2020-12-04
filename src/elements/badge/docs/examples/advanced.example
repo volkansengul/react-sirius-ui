@@ -1,0 +1,34 @@
+<>
+  <Box mb={3}>
+    <Badge mr={3} count={8}>
+      <AvatarInitials size="sm" />
+    </Badge>
+    <Badge mr={3} isDot>
+      <AvatarInitials size="sm" />
+    </Badge>
+    <Badge mr={3} variant="secondary" count={120}>
+      <AvatarInitials size="sm" variant="success" />
+    </Badge>
+  </Box>
+
+  <Box>
+    <Badge mr={3} count={8}>
+      <ButtonIcon><IconBell /></ButtonIcon>
+    </Badge>
+    <Badge mr={3} isDot>
+      <ButtonIcon><IconBell /></ButtonIcon>
+    </Badge>
+
+    <Badge mr={3} isDot variant="primary">
+      <ButtonIcon><IconBell /></ButtonIcon>
+    </Badge>
+
+    <Badge mr={3} isDot variant="warning">
+      <ButtonIcon variant="warning"><IconBell /></ButtonIcon>
+    </Badge>
+
+    <Badge mr={3} isDot variant="success">
+      <ButtonIcon variant="success"><IconBell /></ButtonIcon>
+    </Badge>
+  </Box>
+</>

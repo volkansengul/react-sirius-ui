@@ -1,0 +1,10 @@
+<>
+  <form>
+    <NumberInput thousandSeparator={true} suffix={' ₺'} placeholder="Enter Money Value" mr={1} inline value="2500" />
+  </form>
+
+  <Paragraph mt={4}>You can also use decimal values too.</Paragraph>
+  <form>
+    <NumberInput thousandSeparator={true} suffix={' ₺'} placeholder="Enter Money Value" mr={1} inline value="2500.99" />
+  </form>
+</>

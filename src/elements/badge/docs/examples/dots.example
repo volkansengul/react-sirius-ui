@@ -1,0 +1,23 @@
+<>
+  <Box mb={3}>
+    <Badge isDot mr={2} />
+    <Badge isDot interval={1000} variant="primary" mr={2} />
+    <Badge isDot variant="secondary" mr={2} />
+    <Badge isDot interval={500} variant="success" mr={2} />
+    <Badge isDot variant="warning" mr={2} />
+    <Badge isDot variant="info" mr={2} />
+    <Badge isDot variant="light" mr={2} />
+    <Badge isDot variant="dark" mr={2} />
+  </Box>
+
+  <Box>
+    <Badge isDot mr={2} text="Badge Text" />
+    <Badge isDot variant="primary" mr={2} text="Text" />
+    <Badge isDot variant="secondary" mr={2} text="Text" />
+    <Badge isDot variant="success" mr={2} text="Text" />
+    <Badge isDot variant="warning" mr={2} text="Text" />
+    <Badge isDot variant="info" mr={2} text="Text" />
+    <Badge isDot variant="light" mr={2} text="Text" />
+    <Badge isDot variant="dark" mr={2} text="Text" />
+  </Box>
+</>

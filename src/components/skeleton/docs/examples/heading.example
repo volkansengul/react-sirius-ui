@@ -1,0 +1,5 @@
+<Box>
+  <SkeletonHeading />
+  <SkeletonHeading width={150} />
+  <SkeletonHeading width={250} />
+</Box>

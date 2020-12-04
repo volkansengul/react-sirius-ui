@@ -1,0 +1,42 @@
+<>
+  <Box py="10rem" textAlign="center">
+    <PopConfirm
+      title="Are you sure you want to do this operation?"
+      direction="top"
+      okButtonText="Evet, Sil!"
+      cancelButtonText="İptal"
+    >
+      <Button>Open Pop Confirm</Button>
+    </PopConfirm>
+  </Box>
+  <Box py="10rem" textAlign="center">
+    <PopConfirm
+      title="Are you sure you want to do this operation?"
+      direction="left"
+      okButtonText="Evet, Sil!"
+      cancelButtonText="İptal"
+    >
+      <Button variant="success">Open Pop Confirm (Left)</Button>
+    </PopConfirm>
+  </Box>
+  <Box py="10rem" textAlign="center">
+    <PopConfirm
+      title="Are you sure you want to do this operation?"
+      direction="right"
+      okButtonText="Evet, Sil!"
+      cancelButtonText="İptal"
+    >
+      <Button variant="warning">Open Pop Confirm (Right)</Button>
+    </PopConfirm>
+  </Box>
+  <Box py="10rem" textAlign="center">
+    <PopConfirm
+      title="Are you sure you want to do this operation?"
+      direction="bottom"
+      okButtonText="Evet, Sil!"
+      cancelButtonText="İptal"
+    >
+      <Button variant="danger">Open Pop Confirm (Bottom)</Button>
+    </PopConfirm>
+  </Box>
+</>

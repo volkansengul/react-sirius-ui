@@ -1,0 +1,15 @@
+<>
+  <Box mb={5}>
+    <Alert mb={2} title="Well done!" text="Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content." />
+    <Alert mb={2} variant="success" title="Well done!" text="Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content." />
+    <Alert mb={2} variant="warning" title="Well done!" text="Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content." />
+    <Alert variant="danger" title="Well done!" text="Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content." />
+  </Box>
+
+  <Box>
+    <Alert mb={2} hasIcon title="Well done!" text="Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content." />
+    <Alert mb={2} hasIcon variant="success" title="Well done!" text="Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content." />
+    <Alert mb={2} hasIcon variant="warning" title="Well done!" text="Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content." />
+    <Alert hasIcon variant="danger" title="Well done!" text="Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content." />
+  </Box>
+</>

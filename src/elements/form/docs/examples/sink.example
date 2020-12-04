@@ -1,0 +1,36 @@
+<>
+  <form>
+    <FormGroup>
+      <FormLabel>Email Address</FormLabel>
+      <TextInput type="email" name="email" id="email" />
+    </FormGroup>
+
+    <FormGroup>
+      <FormLabel>User ID</FormLabel>
+      <TextInput type="text" name="userId" id="userId" />
+      <FormHint>You can use FormHint to give message about input to inputs in general.</FormHint>
+    </FormGroup>
+
+    <FormGroup>
+      <FormLabel>Your Name</FormLabel>
+      <TextInput type="text" name="fullName" id="fullName" />
+      <FormValidationMessage>Bu alan boş geçilemez.</FormValidationMessage>
+    </FormGroup>
+
+    <FormGroup>
+      <FormLabel mb={0}>Another Field</FormLabel>
+      <FormHint mt={0}>You can use FormHint to give message about input to inputs in general.</FormHint>
+      <TextArea name="anotherField" id="anotherField" rows={3}></TextArea>
+    </FormGroup>
+
+    <Button type="button" mr={1}>Submit</Button>
+    <Button type="reset" variant="light">Reset</Button>
+  </form>
+
+  <Paragraph mt={5}>You can also use forms as inline.</Paragraph>
+  <form>
+    <TextInput type="email" name="email" id="email" inline placeholder="Email Address" mr={1} />
+    <TextInput type="password" name="password" id="password" inline placeholder="Password" mr={1} />
+    <Button variant="secondary" type="button">Login</Button>
+  </form>
+</>

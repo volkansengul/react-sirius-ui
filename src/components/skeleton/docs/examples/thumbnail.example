@@ -1,0 +1,18 @@
+<>
+  <Box mb={5}>
+    <SkeletonThumbnail />
+  </Box>
+
+  <Box mb={5}>
+    <SkeletonThumbnail width={160} height={120} mr={2} />
+    <SkeletonThumbnail width={160} height={120} mr={2} />
+    <SkeletonThumbnail width={160} height={120} mr={2} />
+    <SkeletonThumbnail width={160} height={120} />
+  </Box>
+
+  <Box>
+    <SkeletonThumbnail borderRadius="10%" mr={2} />
+    <SkeletonThumbnail borderRadius="25%" mr={2} />
+    <SkeletonThumbnail borderRadius="50%" />
+  </Box>
+</>

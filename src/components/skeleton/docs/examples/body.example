@@ -1,0 +1,5 @@
+<Box>
+  <SkeletonBodyText mb={4} />
+  <SkeletonBodyText mb={4} lines={7} />
+  <SkeletonBodyText lines={1} />
+</Box>

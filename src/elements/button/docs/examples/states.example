@@ -1,0 +1,4 @@
+<Box>
+  <Button disabled mr={2}>Disabled Button</Button>
+  <Button loading>Loading Button</Button>
+</Box>

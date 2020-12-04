@@ -1,0 +1,24 @@
+<Box>
+  <ButtonIcon href="" mr={1}><IconClipboard /></ButtonIcon>
+  <ButtonIcon href="" mr={1} variant="secondary">
+    <IconClipboard />
+  </ButtonIcon>
+  <ButtonIcon href="" mr={1} variant="success">
+    <IconClipboard />
+  </ButtonIcon>
+  <ButtonIcon href="" mr={1} variant="info">
+    <IconClipboard />
+  </ButtonIcon>
+  <ButtonIcon href="" mr={1} variant="warning">
+    <IconClipboard />
+  </ButtonIcon>
+  <ButtonIcon href="" mr={1} variant="danger">
+    <IconClipboard />
+  </ButtonIcon>
+  <ButtonIcon href="" mr={1} variant="light">
+    <IconClipboard />
+  </ButtonIcon>
+  <ButtonIcon href="" variant="dark">
+    <IconClipboard />
+  </ButtonIcon>
+</Box>

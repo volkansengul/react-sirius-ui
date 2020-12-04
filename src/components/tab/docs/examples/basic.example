@@ -1,0 +1,9 @@
+<Box>
+  <TabGroup>
+    {['Traits', (<><Text color="secondary" mr={2}><IconAddUser /></Text> HTML Tab Label.</>), 'Identities'].map((tab, index) => (
+      <Tab label={tab}>
+        {tab} Content.
+      </Tab>
+    ))}
+  </TabGroup>
+</Box>

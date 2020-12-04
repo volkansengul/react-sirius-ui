@@ -1,0 +1,8 @@
+<>
+  <Box fontSize="2rem" mb={3}>
+    <Spinner />
+  </Box>
+  <Box fontSize="1rem">
+    <Spinner size={60} />
+  </Box>
+</>

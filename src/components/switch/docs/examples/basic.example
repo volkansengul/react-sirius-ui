@@ -1,0 +1,10 @@
+<>
+  <Box mb={3}>
+    <Switch />
+  </Box>
+
+  <Box>
+    <Switch checked />
+  </Box>
+
+</>
